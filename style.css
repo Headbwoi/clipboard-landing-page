@@ -1,0 +1,286 @@
+@import url("https://fonts.google.com/specimen/Bai+Jamjuree");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Bai Jamjuree;
+  font-weight: 400, 600;
+}
+
+body {
+  background: white;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: hsl(210, 10%, 33%);
+}
+h1,
+h2 {
+  font-size: 3rem;
+  padding: 2rem 4rem;
+}
+h3 {
+  font-size: 2.4rem;
+  padding: 2rem 4rem;
+}
+h4 {
+  font-size: 2.4rem;
+  padding: 4rem 4rem 0rem;
+}
+h5 {
+  font-size: 2rem;
+  padding: 1rem 4rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding: 1rem 3rem 3rem;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+
+img.icon {
+  width: 10%;
+  margin-top: 7rem;
+}
+img.icon1 {
+  width: 10%;
+  margin-top: 2.5rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  overflow-x: hidden;
+}
+.btn-group div {
+  margin: 1.8rem auto;
+}
+button {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+.btn {
+  padding: 1.6rem 2rem;
+}
+.btn-1 {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 1px 4px 30px hsl(171, 66%, 44%);
+}
+.btn-1:hover {
+  background-color: hsla(171, 66%, 44%, 0.9);
+}
+.btn-2 {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 1px 4px 30px hsl(233, 100%, 69%);
+}
+.btn-2:hover {
+  background-color: hsla(233, 100%, 69%, 0.9);
+}
+.container .hero img {
+  width: 100vw;
+}
+.container .hero img.logo-svg {
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .hero .desktop {
+  display: none;
+}
+
+.content {
+  margin: 9rem 0;
+}
+.content img {
+  width: 80%;
+  margin: 2rem auto;
+}
+.content p {
+  padding-bottom: 0rem;
+}
+
+.tail {
+  margin: 2rem 0;
+}
+
+.images {
+  width: 40%;
+  margin: 8rem auto;
+}
+.images img {
+  margin: 3rem auto;
+}
+
+.bottom {
+  margin-top: 4rem;
+}
+
+.footer {
+  width: 100%;
+  margin: 9rem auto 0;
+  background-color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+.footer div img {
+  display: block;
+  width: 45%;
+  margin: 3rem auto;
+  padding: 5rem 5rem 2rem;
+}
+.footer .footer-content {
+  margin: 4rem auto 2rem;
+}
+.footer .footer-icons {
+  display: flex;
+  width: 35%;
+  margin: auto;
+}
+.footer .footer-icons img.foo {
+  padding: 0 1rem;
+}
+
+.attribution {
+  background: #444;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .container .hero .desktop {
+    display: block;
+  }
+  .container .hero .mobile {
+    display: none;
+  }
+  .container .hero img.logo-svg {
+    width: 10%;
+  }
+  p {
+    padding: 1rem 20rem 3rem;
+  }
+  .btn-group {
+    display: flex;
+    justify-content: center;
+  }
+  .btn-group div {
+    display: flex;
+    margin: 0;
+    width: 25%;
+  }
+  .content .con {
+    display: flex;
+    margin: 2rem auto;
+    text-align: left;
+  }
+  .content .con img {
+    width: 50%;
+    margin: 2rem 0 0 4rem;
+    object-fit: contain;
+  }
+  .content .con .con-content h3 {
+    padding-left: 20rem;
+  }
+  .content .con .con-content p {
+    text-align: left;
+  }
+  .tail img {
+    width: 50%;
+  }
+  .tail h4 {
+    font-size: 2.7rem;
+  }
+  .tail-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tail-con h5 {
+    margin: 0;
+    padding: 0;
+  }
+  .tail-con p {
+    margin: 0;
+    padding: 1rem 10rem;
+  }
+  .tail-con div:nth-child(1) {
+    margin-top: -5rem;
+  }
+  .tail-con img {
+    width: 10%;
+  }
+  .images {
+    display: flex;
+    justify-content: center;
+  }
+  .images img {
+    padding: 0 3.5rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer-image img {
+    width: 30%;
+    padding: 0;
+    align-items: center;
+    margin: 0.5rem 8rem;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    padding: 0.6rem 4rem;
+  }
+  .footer-content h5:hover {
+    color: hsl(171, 66%, 44%);
+  }
+  .footer-icons {
+    padding-left: 10rem;
+  }
+  .footer-icons .foo {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-icons .foo {
+    width: 20%;
+  }
+}
+@media (min-width: 700px) {
+  p {
+    font-size: 1.8rem;
+  }
+  .footer div img {
+    width: 30%;
+  }
+}
