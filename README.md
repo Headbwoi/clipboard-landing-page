@@ -9,6 +9,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I Learned](#learnt)
 - [Author](#author)
 
 ## Overview
@@ -34,6 +35,11 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
+### What I Learned
+
+- I finally did my first landing page today lol.
+- This is my first full landing page
+- 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
